@@ -1,0 +1,294 @@
+/***** BASE STYLES *****/
+
+
+body {
+	font-family: 'Roboto', sans-serif;
+	color: #19381F;
+	border: 1px solid #EBF2FA;
+}
+
+
+
+
+/***** GRID *****/
+
+
+
+
+.full-width {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+
+
+.half-width {
+	float: left;
+	width: 590px;
+}
+
+
+
+.third-width {
+	float: left;
+	width: 350px;
+}
+
+
+
+/***** HEADER *****/
+
+header {
+  height: 870px;
+  margin: 0 auto;
+  background: url('../img/tree-background.jpg');
+  background-size: cover;
+}
+
+header h1 {
+  clear: both;
+	color: #CBFF8C;
+	font-family: 'Roboto Slab', serif;
+	font-size: 60px;
+	padding: 60px 0px 20px 0px;
+  text-align: center;
+}
+
+
+header h3 {
+  clear: both;
+  color: #EBF2FA;
+  font-size: 42px;
+  font-weight: normal;
+  text-align: center;
+}
+
+
+nav {
+	float: right;
+	padding: 35px 30px 75px 25px;
+}
+
+
+
+
+nav ul li {
+	display: inline-block;
+}
+
+nav ul li a {
+	color: #EBF2FA;
+	font-size: 18px;
+  padding-left: 40px;
+  text-decoration: none;
+	text-transform: uppercase;
+}
+
+
+
+/***WORK***/
+
+#work{
+	background: #F7F9F9;
+  color:  #354157;
+  height: 1530px;
+  margin: 0 auto;
+  border: 1px solid #ffffff;
+}
+
+#work .full-width {
+  clear: both;
+  padding: 100px 30px 50px;
+  text-align: justify;
+}
+
+
+#work h2{
+	font-family: 'Roboto Slab', serif;
+	font-size: 40px;
+	font-style: bold;
+	text-align: center;
+	padding-top: 50px;
+}
+
+#work a{
+	color: #19381F;
+	text-decoration: none;
+	font-size: 28px;
+}
+
+#work h3{
+	font-family: 'Roboto regular', serif;
+	font-size: 24px;
+	font-style: normal;
+	color: #19381F;
+}
+
+#work h4{
+	font-family: 'Roboto regular', serif;
+	font-size: 24px;
+	color: #19381F;
+}
+
+#work p{
+	font-family: 'Roboto regular', serif;
+	font-size: 24px;
+	line-height: 25px;
+	color: #19381F;
+	font-weight: normal;
+}
+
+
+
+
+
+/***ABOUT***/
+
+#about{
+	background: #CBFF8C;
+	height: 690px;
+	border: 1px solid #EBF2FA;
+	color: #354157;
+}
+
+#about .third-width{
+	float: left;
+	padding: 5px 20px 5px 20px;
+}
+
+#about h2 {
+  font-family: 'Roboto Slab', serif;
+  font-size: 48px;
+  padding: 30px 0 50px 0;
+  text-align: center;
+}
+
+
+
+
+
+#about h3 {
+  font-family: 'Roboto Slab', serif;
+  font-size: 28px;
+  text-align: justify;
+}
+
+
+#about p{
+	font-size: 18px;
+	font-family: 'Roboto regular', serif;
+	font-size: 20px;
+  line-height: 25px;
+}
+
+
+#myself{
+border-left: 1px solid #ffffff;
+  border-right: 1px solid #ffffff;
+}
+
+
+#skills h3 {
+  padding-left: 20px;
+  text-align: left;
+}
+
+
+
+
+#about ul {
+  display: inline-block;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+
+
+
+
+
+
+
+/****CONTACT****/
+
+#contact{
+	background: #354157;
+	color:#EBF2FA;
+	height: 450px;
+}
+
+#contact .full-width{
+	padding: 50px;
+}
+
+#contact .third-width{
+	float: left;
+	text-align: center;
+	width: 395px;
+	}
+
+
+
+#contact h2{
+	text-align: center;
+	font-size: 48px;
+	line height: 44px;
+}
+
+
+#contact h3 {
+  font-family: 'Roboto Slab', serif;
+  font-size: 28px;
+	text-align: center;
+}
+
+
+#meet {
+	padding: 5px;
+}
+
+#contact a{
+	font-size: 22px;
+  padding-top: 30px;
+  text-decoration: none;
+	color: #EBF2FA;
+}
+
+
+
+
+#contact #envelope {
+  padding: 20px 10px 0px 0px;
+}
+
+
+#contact ul {
+	list-style: none;
+  padding: 20px 0 20px 0;
+  word-spacing: 40px;
+}
+
+#contact ul li {
+	display: inline-block;
+	text-align: center;
+}
+
+
+#contact p {
+  font-size: 22px;
+  line-height: 32px;
+  padding-top: 15px;
+	text-align: center;
+}
+
+
+
+/***FOOTER***/
+
+
+footer{
+	background: #354157;
+	text-align: center;
+	color: #EBF2FA;
+	padding: 50px 0 5px 0;
+}

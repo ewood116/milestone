@@ -1,0 +1,73 @@
+body {
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+}
+
+
+
+#parentdiv {
+    border: 5px solid #E2D6DD;
+    height: 1075px;
+    overflow: auto;
+    width: 430px;
+}
+
+
+.boxtype1 {
+    color: #00001a;
+    background: #66ff99;
+    height: 40%;
+    padding: 40px 20px 40px 20px;
+    width: 175px;
+}
+
+
+.boxtype2 {
+    color: darkgrey;
+    background: #3333ff;
+    height: 20%;
+    padding: 20px;
+    width: 175px;
+}
+
+
+.boxtype3 {
+    color: navy;
+    background: slategrey;
+    height: 20%;
+    padding: 20px;
+    width: 175px;
+}
+
+
+
+.boxtype4 {
+    color: #EEEEED;
+    background: #42393B;
+    height: 20%;
+    padding: 20px;
+    width: 175px;
+}
+
+
+.emphasis-font {
+    font-family: 'Lobster', cursive;
+}
+
+.emphasis-size {
+	font-size: 28px;
+}
+
+
+#column-1{
+	float: left;
+	height: 875px;
+}
+
+
+
+#column-2{
+	float: left;
+	height: 875px;
+}
